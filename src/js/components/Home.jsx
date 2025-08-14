@@ -61,7 +61,17 @@ return (
         ))}
       </div>
     )}
-	{listaNombres}
+	<ul>
+		{listaNombres.map((nombre,index)=>{
+			return(
+				
+				<ul  key={index}>
+					<div className="bg-info m-3">{nombre} {index}</div>
+				</ul>
+			)
+		})}
+	</ul>
+	
   </div>
 );
 
