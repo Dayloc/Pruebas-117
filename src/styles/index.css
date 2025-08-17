@@ -9,3 +9,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: black;
+}
+.home{
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    border-radius: 15px;
+   text-shadow: 2px 2px 15px  rgb(80, 126, 201);
+}
