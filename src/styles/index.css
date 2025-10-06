@@ -10,12 +10,13 @@
 
 */
 body{
-    background-color: black;
+    background-color: rgb(86, 72, 72);
 }
 .home{
     width: 100%;
     height: auto;
     margin: 15px;
     border-radius: 15px;
-   text-shadow: 2px 2px 15px  rgb(80, 126, 201);
+   text-shadow: 2px 2px 15px  rgb(203, 222, 253);
+   background-color: rgb(2, 84, 139);
 }
